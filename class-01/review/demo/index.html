@@ -1,0 +1,70 @@
+<!DOCTYPE html> <!-- Render html file-->
+<html lang="en"> <!--Start of my html and that the file will be in english -->
+<head> <!--Information about the webpage-->
+    <title>Lecture 01</title>
+</head>
+<style>
+    h1 {
+        background-color: red;
+    }
+
+    body{
+        background-color: black;
+    }
+
+    li {
+        color:yellow
+    }
+
+  .puppieNames {
+    color:white;
+    background-color:blue;
+  }
+
+  .catNames{
+    color:red;
+  }
+
+#tiffanyName{
+    color:red;
+}
+</style>
+
+<script>
+    let waterBottleCount = 20
+    // console.log(waterBottleCount)
+
+
+    let name = prompt('What is your favorite name?')
+   let color = prompt('What is your favorite color?')
+
+
+   alert('Hi ' + name + ' I hate this color ' + color)
+   alert(color)
+
+</script>
+
+<body> <!--Everythign you will see-->
+    <header>
+        <main>
+    <h1>Names of cute puppies</h1>
+    <p>Here is the list of puppies </p>
+    <ol><!-- unordered list-->
+        <li class = "puppieNames">Rex</li>
+        <li class = "puppieNames">John</li>
+        <li id = "tiffanyName" class = "puppieNames">Tiffany</li>
+    </ol>
+    <p>Here is the list of cats </p>
+    <ol><!-- unordered list-->
+        <li class = "catNames">tex</li>
+        <li class = "catNames">hohn</li>
+    </ol>
+    <p>Here is the list of chickens </p>
+    <ol><!-- unordered list-->
+        <li class = "chickenNames">pex</li>
+        <li  class = "chickenNames">vohn</li>
+    </ol>
+    <section>
+    </main>
+</body>
+</html>
