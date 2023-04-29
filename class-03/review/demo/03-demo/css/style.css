@@ -1,0 +1,14 @@
+h1{
+    margin:10px;
+    border: solid 5px red;
+    padding:25px;
+
+}
+
+
+article{
+    border:solid 5px orange;
+    max-width: 500px;
+    margin: 0 auto;
+
+}
