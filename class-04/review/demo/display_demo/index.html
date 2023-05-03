@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<style>
+  section section {
+    border:2px solid purple;
+    background-color: lavender;
+
+  }
+
+  section div{
+    border: 2px solid blue;
+    background-color: azure;
+  }
+
+  .none div{
+    display:none;
+  }
+
+  .inline div {
+display: inline;
+width:20px;
+  }
+
+  .inline-block div{
+    display: inline-block;
+    width:20px;
+  }
+
+  .block div{
+    display: block;
+  }
+</style>
+
+<body>
+  <header>
+    <h1>CSS Display</h1>
+    <h2>Let's change the styles of the numbered boxes</h2>
+    <p>In each example the following style is added to the numbered boxes. All other code is the same.</p>
+  </header>
+
+  <section>
+    <h3>Display: none</h3>
+    <section class="none">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </section>
+  </section>
+
+  <section>
+    <h3>Display: inline</h3>
+    <section class="inline">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </section>
+  </section>
+
+  <section>
+    <h3>Display: block</h3>
+    <section class="block">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </section>
+  </section>
+
+  <section>
+    <h3>Display: inline-block</h3>
+    <section class="inline-block">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </section>
+  </section>
+
+  <!-- Show what happens when we add text inside the inner section with the class 'float-left' -->
+
+
+
+
+</body>
+
+</html>
