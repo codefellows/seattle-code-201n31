@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<style>
+  body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#container {
+  background-color: #003049;
+  width: 90%;
+  height: 700px;
+  margin: 0 auto;
+  border: 5px solid #003049;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+#container div {
+  width: 100px;
+  height: 100px
+}
+
+div:hover{
+  background-color: maroon;
+}
+
+
+body{
+  display: flex;
+}
+
+div:nth-child(n+2){
+  background-color: darkslategrey;
+}
+
+
+
+div{
+  background-color: darkgoldenrod;
+  border: solid black 2px;
+}
+
+</style>
+
+<body>
+    <!-- <h1>Let's Play With Flexbox!</h1> -->
+
+    <section id="container">
+        <div ></div>
+        <div ></div>
+        <div ></div>
+        <div ></div>
+        <div id = 'last'></div>
+    </section>
+
+
+
+</body>
+
+</html>
