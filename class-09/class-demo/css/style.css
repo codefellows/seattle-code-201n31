@@ -1,0 +1,46 @@
+th, td{
+  border:1px solid;
+}
+
+table{
+  border-collapse: collapse;
+  margin-bottom:50px;
+}
+
+img{
+  max-width: 100%;
+  height:100px;
+  width:200px;
+}
+
+article {
+  position: relative;
+  background-color: rgb(186, 227, 227);
+  width:400px;
+  height:350px;
+  text-align:center;
+  box-shadow: 2px  2px  15px #000000;
+  border:solid 2px black;
+  margin:10px;
+}
+
+#kittenProfiles{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom:50px;
+}
+
+tr{
+  background-color: white;
+}
+
+form{
+  margin-bottom:500px;
+}
+fieldset{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height:200px;
+}
