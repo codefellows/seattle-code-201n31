@@ -1,0 +1,109 @@
+img{
+  /* Transform */
+
+  /* transform:rotate(-30deg)  */
+  /* transform:translate(-50px, -100px) */
+  /* transform: skew(-150deg); */
+  background-color: purple;
+  padding:20px;
+}
+
+
+
+img:hover{
+  transform:scale(1.5) rotate(30deg);
+
+  transition:all .75s ease 0s;
+  background-color: red;
+}
+
+
+@keyframes blink {
+  0%{
+    color:red;
+  }
+
+  50%{
+    color:blue
+  }
+}
+
+.blink{
+  animation-name: blink;
+  animation-timing-function: linear;
+  animation-duration:1s;
+  animation-iteration-count: infinite;
+  font-size: 50px;
+}
+
+
+
+@keyframes ballMovement {
+  0%{
+    left:0;
+    top:0;
+  }
+
+  12.5%{
+    left:90%;
+    top:25%;
+  }
+
+  25%{
+    left:0%;
+    top:50%
+  }
+
+  32.5%{
+    left:90%;
+    top:75%;
+  }
+
+  50%{
+    left:0%;
+    top:90%;
+  }
+
+  62.5%{
+    left:90%;
+    top:75%;
+  }
+
+  75%{
+    left:00%;
+    top:50%;
+  }
+
+  87.5%{
+    left:90%;
+    top:25%
+  }
+
+  100%{
+    left:0%;
+    top:0%;
+  }
+
+}
+
+
+.animationElement{
+  width:10%;
+  height:10%;
+  background-color: red;
+  position: relative;
+  border-radius: 50%;
+  animation-name:ballMovement;
+  animation-duration: 10s;
+  animation-timing-function: infinite;
+  animation-iteration-count: 3 ;
+}
+
+.animation{
+  background-color: gray;
+  border:2px solid black;
+  height:400px;
+  width:400px;
+
+}
+
