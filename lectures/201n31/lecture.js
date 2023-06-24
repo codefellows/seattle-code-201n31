@@ -5,6 +5,15 @@ async function getP() {
   return pc;
 }
 
-document.querySelector("#passcode").append(getP())
 
-console.log("hello world")
+
+async function getLectures() {
+  const passcode = await getP();
+  document.querySelector("#passcode").append(passcode)
+}
+
+getLectures();
+
+
+
+console.log(await getP())
