@@ -1,5 +1,67 @@
 {
   "lectures": {
+    "201n31-links": {
+      "Class 1: Topic: Orientation and Introduction to Web DevelopmentLinks to an external site.": {
+        "primary": {
+          "link": "https://zoom.us/rec/share/MAa4EH3N-COxSZP0fe-W477kjSpVWSK5qQJYQAmjCftFfIf5dQCaLhFF6-Xmfdm-.Q_HN4ebAAdh4FkeW?startTime=1682178375000",
+          "date": "1675702100000",
+          "instructor": "Titus Dolphus"
+        },
+        "backup": {
+          "link": "https://zoom.us/rec/share/Ot3lcku19HuDNxxTBCvK6mp0jSkMaj3NQVzsk6y_h2RwATc2LqZmYaCodfu_ze29.N2NIzAifOz8ru5d8",
+          "date": "1678121163000",
+          "instructor": "Jacob Knaack"
+        }
+      },
+      "class-02": {
+        "primary": {
+          "link": "https://zoom.us/rec/share/8-9y2yM4IC-vNF3Q2JVLa1MveZad71ppCsdCks2TNTYASHgo6Uu9TdMWB6Jminh2.1X8yH5S_KS6seaCi",
+          "date": "1675789207000",
+          "instructor": "Audrey Patterson"
+        },
+        "backup": {
+          "link": "https://zoom.us/rec/share/IHhd8pPWHepAT_tq7ia-uLqv1xFVf3_vsQy05Y5Wnue8sHH6HNmSJf6E5-R6iaLl.oU5MIlCesDmsz3Uy",
+          "date": "1678208473000",
+          "instructor": "Jacob Knaack"
+        }
+      },
+      "class-03": {
+        "primary": {
+          "link": "https://zoom.us/rec/share/LxxHSdAjrTGQzVaJAwQTrUE_tVA3DxFI7D9DzapKHQK8KRrJnmlMq5tN9BP3DBgf.CM8FvpUK504WHqyK",
+          "date": "1675875610000",
+          "instructor": "Audrey Patterson"
+        },
+        "backup": {
+          "link": "https://zoom.us/rec/share/kL6NibCO72-e-jDvFN4xGEZEsUOgv0KS1ukb5W5auEx2bHlDLNbO7bh8tjBMhPXX.gyfzaF7TXXjKsJBB",
+          "date": "1678294806000",
+          "instructor": "Jacob Knaack"
+        }
+      },
+      "class-04": {
+        "primary": {
+          "link": "https://zoom.us/rec/share/ygx3u44c3pE7JmdrqEP_eiCkoq2E_ZWvsGZ64_dMu-U1l4Rt8MFIvj4BOmmKdvlK.5aJMUbsFGlTDRatF",
+          "date": "1675962004000",
+          "instructor": "Audrey Patterson"
+        },
+        "backup": {
+          "link": "https://zoom.us/rec/share/PWLbIj82nMSQy-iWIWnDDgAsG418E8TTsZzPZoyNiHT742fWCEFbPD2_oroHcuVU.wJ8gdKLCnylAMLaM",
+          "date": "1678381362000",
+          "instructor": "Jacob Knaack"
+        }
+      },
+      "class-05": {
+        "primary": {
+          "link": "https://zoom.us/rec/share/yFvVlU6TCPrI_-ldIIxAHnFiBlGqfjmOHVnbj3yUa9N6Y5hgXKICjz-0GvCP4Cy9.r8UiarBw6Rrt08RJ",
+          "date": "1676048417000",
+          "instructor": "Audrey Patterson"
+        },
+        "backup": {
+          "link": "https://zoom.us/rec/share/jKJkOonrV4oTAIiKxG7CKB9Ba6bXQRo4UUDgSPvQVzcwo32FP1STA8_3G4EAAn2z.KeeK82UCKwll-IgR",
+          "date": "1678467683000",
+          "instructor": "Jacob Knaack"
+        }
+      }
+    },
     "module-01": {
       "class-01": {
         "primary": {
